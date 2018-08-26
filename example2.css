@@ -1,0 +1,13 @@
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.animsition { display: block !important; }
+.animsition2 { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+.animsition { display: none !important; }
+.animsition2 { display: block !important; }
+}
