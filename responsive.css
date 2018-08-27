@@ -16,7 +16,7 @@
 /*スマートフォン向けレイアウト　*/
 @media (max-width: 670px){
     .text{
-        font-size: 20px;
+        font-size: 18px;
     }
     .top_img img{
         display: block;
