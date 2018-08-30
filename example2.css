@@ -7,7 +7,7 @@ img{
 .animsition { display: block !important; }
 .animsition2 { display: none !important; }
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
 .animsition { display: none !important; }
 .animsition2 { display: block !important; }
 }
