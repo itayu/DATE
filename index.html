@@ -6,16 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recotto</title>
   <link href="css/animsition.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="example.css">
+  <link rel="stylesheet" type="text/css" href="css/example.css">
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
+  <div class="login" id="login-show">
+    <span>ヘルプ</span>
+  </div>
+  
+  <div class="login-modal-wrapper" id="login-modal">
+   <div class="modal">
+      <h2>ここにメッセージやで</h2>
+        <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+        </div>
+    </div> 
+  </div>
+ 
 
   <div class="animsition">
     <div class="top_img">
-<img src="1.png">
+<img src="img/1.png">
 </div>
 
 <div class="text">
@@ -37,6 +52,6 @@
     $('.animsition').animsition();
   });
   </script>
-
+<script src="js/script.js"></script>
 </body>
 </html>
