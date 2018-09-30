@@ -9,9 +9,10 @@ body{
 
 .text{
   text-align: center;
-font-family: "Nico Moji";
+font-family: "font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";";
 font-size: 30px;
 line-height: 200%;
+color: #787d7b;
 }
 
 
